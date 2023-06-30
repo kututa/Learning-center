@@ -1,0 +1,125 @@
+body {
+    font-family: "Sofia", sans-serif;
+
+  }
+
+  span{font-size: large;
+  font-family: 'Courier New', Courier, monospace;}
+
+  *{font-size: medium;
+padding: 0px;
+margin: 0px;}
+
+
+.navbar-brand {
+  position: relative;
+  transition: color 0.3s;
+}
+
+.navbar-brand:hover {
+  color: crimson;
+}
+
+.navbar-brand:hover::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: crimson;
+}
+
+.navbar-brand h5 {
+  color: purple;
+}
+
+.navbar-brand:hover .logo-text {
+  color: crimson;
+}
+
+
+/* end of section  */
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+  font-size: large;
+}
+
+@media (min-width: 992px) {
+  .carousel-item img {
+    height: 100vh;
+    object-fit: center;
+  /* width: 500px; */
+
+  }
+}
+
+
+.descreption{
+  color: rgb(14, 13, 13);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 10px;
+}
+
+.courses{
+  color: black;
+}
+
+p{ color: purple;}
+
+.text-center, span{
+  color: crimson;
+}
+
+.h {
+  color: purple;
+}
+
+
+.modal {
+  display: block;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.list-group-item{
+  box-shadow: 0 0 10px purple ;
+  /* color: #A020F0 #A020F0 ; */
+}
+
+.list-group-item:hover{
+  color: #A020F0;
+}
